@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+}
+h1 {
+  margin-top: 0px;
+  background-color: #281b2d;
+  padding: 25px 0px;
+  text-align: center;
+  color: #fff;
+  font-size: 72px;
+}
+a {
+  color: #281b2d;
+}
+a:hover {
+  color: #fff;
+}
+/* Same as above... but if we have any paragraphs along with header, we shall use this as it suits us better
+header {
+  background-color: #281B2D;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 72px;
+  margin: 0;
+} */
+.subheading {
+  font-size: 48px;
+  background-color: #281b2d;
+  color: #fcd801;
+  border-bottom: 5px solid #00c54c;
+  padding: 20px;
+  line-height: 50px;
+  margin-top: 0;
+}
+.colorchange {
+  color: #fff;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.columns {
+  display: flex;
+}
+.main-content {
+  width: 65%;
+  margin-right: 3%;
+}
+.col-right {
+  margin-left: 15px;
+}
+.sidebar {
+  width: 30%;
+  background-color: #9ae84f;
+  line-height: 30px;
+  padding: 15px;
+  box-shadow: 5px 5px 5px grey;
+}
+.source {
+  font-size: 12px;
+}
