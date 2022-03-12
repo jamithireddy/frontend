@@ -1,0 +1,33 @@
+body {
+  background-image: url("img/newyork.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  text-align: center;
+}
+h1 {
+  margin: 10px 0;
+  padding: 50px;
+  color: #fff;
+}
+
+h2 {
+  font-size: 50px;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+button {
+  border: none;
+  padding: 10px 0;
+  color: black;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+button:hover {
+  color: tomato;
+}
