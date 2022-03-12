@@ -1,0 +1,30 @@
+body {
+  background-color: #1f2937;
+  font-family: "Inter";
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  margin-top: 0;
+  background: linear-gradient(246.26deg, #585dfe 0%, #fb3796 100%);
+  padding: 20px 0 10px 0;
+  color: #fff;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+
+main {
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+}
+.greyed {
+  color: #d2d2d2;
+}
+.pbody {
+  margin: 50px;
+}
