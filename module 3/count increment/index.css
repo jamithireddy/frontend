@@ -28,6 +28,13 @@ button {
   margin-bottom: 5px;
   border-radius: 5px;
 }
-button:hover {
-  color: tomato;
+#incrmnt_btn {
+  background-color: palevioletred;
+}
+#save-btn {
+  background-color: lightgreen;
+}
+p {
+  font-size: large;
+  color: #fff;
 }
