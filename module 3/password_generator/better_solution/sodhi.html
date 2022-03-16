@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Karla:wght@800&display=swap"
+            rel="stylesheet"
+        />
+        <link href="css/style.css" rel="stylesheet" />
+        <title>Password Generator</title>
+    </head>
+    <body>
+        <div class="container">
+            <section class="main">
+                <h1 class="main-title">Generate a <span class="accent">random password</span></h1>
+                <p class="main-body">Never use an insecure password again.</p>
+                <form action="#" id="generate-password">
+                    <div class="chars-container">
+                        <label for="chars-num">Characters numbers (max: 25):</label>
+                        <input id="chars-num" type="number" max="25" min="1" />
+                    </div>
+                    <button form="generate-password" class="btn" id="generate-btn">
+                        <img src="img/lightning-bolt-icon.png" />
+                        Generate passwords
+                    </button>
+                </form>
+            </section>
+
+            <section class="results">
+                <p class="password-container"><img src="img/dots-icon.png" /></p>
+                <p class="password-container"><img src="img/dots-icon.png" /></p>
+                <p class="password-container"><img src="img/dots-icon.png" /></p>
+                <p class="password-container"><img src="img/dots-icon.png" /></p>
+            </section>
+        </div>
+        <!-- Script -->
+        <script src="main.js"></script>
+    </body>
+</html>

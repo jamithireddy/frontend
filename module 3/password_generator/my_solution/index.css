@@ -1,0 +1,54 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #1F2937
+}
+body{
+  
+  margin-top: 70px;
+  padding-left: 50px;
+}
+h1{
+  color: #fff;
+  font-family: karla;
+  font-size: 40px;
+  font-weight: bolder;
+  margin:0;
+}
+#green-color{
+  color:#4ADF86;
+  
+}
+p{
+  font-family: Inter;
+  color:#D5D4D8;
+}
+button{
+  background-color: #10B981;
+  color:#fff;
+  border: none;
+  width: 200px;
+  padding: 10px 0;
+  font-family: Inter;
+  font-weight: bolder;
+  border-radius: 5px;
+  
+}
+.container{
+  max-width: 750px; 
+  margin-right: 50px;
+
+}
+hr{
+  background-color:#2F3E53;
+}
+label{
+  color:#fff;
+}
+.pwd{
+  background-color: #273549;
+  padding: 5px;
+  color:#5DEF92;
+  width: auto;
+  margin: 10px;
+}
