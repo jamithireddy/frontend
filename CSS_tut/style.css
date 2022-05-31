@@ -1,6 +1,60 @@
+body{
+  background:linear-gradient(to bottom, rgba(204,229,255,1),rgba(216, 163, 94, 0.4)) ; 
+  /*OPACITY: Last value is alpha that manages opacity that takes value from 0 to 1 */
+}
 #title{
   color:rgb(186,133,9);
 }
 .subtitle{
   color:rgb(219,168,50);
+}
+/* By default the image gets repeated */
+
+/* #service-image{
+  height:400px;
+  width: 70%;
+  background-image: url("../CSS_tut/img/img-2.jpg");
+} */
+
+/* BY Changing the property to dont repeat we donot resize the image the container dimensions stay the same.However the image gets to its default size  */
+
+/* #service-image{
+  height:400px;
+  width: 70%;
+  background-image: url("../CSS_tut/img/img-2.jpg");
+  background-repeat: no-repeat;
+  background-color: black;
+} */
+
+/* To manipulate the height and width of the image as per size of the container */
+/* #service-image{
+  height:400px;
+  width: 70%;
+  background-image: url("../CSS_tut/img/img-2.jpg");
+  background-size: cover;
+  background-color: black;
+} */
+
+/* To resize the image without messing with the proportions of the image, we use 'contain' instead of 'cover'*/ 
+
+/* GRADIENTS */
+#service-image{
+  height:400px;
+  width: 70%;
+
+  /* Linear gradient */
+  /* background: linear-gradient(to right,rgb(230, 66, 134),steelblue,rgb(30, 114, 30)); */
+
+  /* Using angles to color the gradients */
+/* background: linear-gradient(215deg,rgb(223, 111, 145),steelblue); */
+
+/* Radial Gradients */
+/* background: radial-gradient(red,blue,green); */
+
+/* To add percentages of the colors */
+/* background: radial-gradient(red 20%, blue 40%,pink 20%); */
+
+/* To change the shape of the gradients */
+/* To add percentages of the colors */
+background: radial-gradient(circle, red 20%,green 40%,blue 20%);
 }
