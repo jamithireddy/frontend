@@ -118,4 +118,34 @@ background: radial-gradient(circle, red 20%,green 40%,blue 20%);
   font-size: 20px;
   color: white;
   background-color: rgb(89,150,255);
+  transition: background 1s ease-in-out, padding 1s linear, border-radius 2s ease; /* Else we can use "all" for all the properties to have similar effect */
+}
+.submit-button:hover{
+  background-color: rgb(115, 202, 173);
+  padding:15px 20px;
+  border-radius: 20px;
+} 
+
+#about-me{
+  animation-name: red-to-black;
+  animation-duration: 4s; 
+  animation-delay: 1s;
+}
+
+@keyframes red-to-black {
+  0%{
+    background:rgb(248, 119, 119);
+    transform: translate(50px, 0px); 
+  }
+  50%{
+    background: rgb(80, 121, 255);
+    color: rgb(109, 109, 109);
+    transform: translate(25px,0);
+  }
+  100%{
+    background: black;
+    color: white;
+    transform: translate(0px,0);
+  }
+  
 }
