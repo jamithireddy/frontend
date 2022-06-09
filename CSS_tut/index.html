@@ -14,7 +14,7 @@ tempor incididunt ut labore et dolore magna aliqua.</p>
 
 <h2 class ="subtitle">About Me</h2>
 
-<img src="img/img-1.jpg">
+<img src="img/img-1.jpg" id="about-us-image">
 
 <p class="para-text">Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
@@ -61,15 +61,37 @@ Cillum dolore eu fugiat nulla , pariatur:
 
 
 <div id="service-image"></div>
+<div class="container">
+	<div class="container-item" style="order:1; flex:1 1 100px; align-self: flex-start;">A</div>
+	<div class="container-item" style="order:2; flex:1 1 100px; align-self: center;">B</div>
+	<div class="container-item" style="order:3; flex:1 3 100px; align-self: flex-end;">C</div>
+	<div class="container-item" style="order:4; flex:1 0 100px; align-self: center;">D</div>
+	<div class="container-item" style="order:5; flex:1 1 100px; align-self: flex-start;">E</div>
+	<div class="container-item" style="order:6; flex:1 1 100px; align-self: center;">F</div>
+	<div class="container-item" style="order:7; flex:5 1 100px; align-self: flex-end;">G</div>
+	<div class="container-item" style="order:8; flex:1 1 100px; align-self: flex-start;">H</div>
+	<div class="container-item" style="order:9; flex:1 2 100px; align-self: center;">I</div>
+	<div class="container-item" style="order:10; flex:1 0 100px; align-self: flex-end;">J</div>
+</div>
+
+<div class="grid-container">
+	<div class="grid-item" style="background-color:rgb(255,150,150) ;grid-column: 1/span 2 ;grid-row:2/span 2;">1</div>
+	<div class="grid-item" style="background-color:rgb(175,250,140) ;">2</div>
+	<div class="grid-item" style="background-color:rgb(222,132,255) ;">3</div>
+	<div class="grid-item" style="background-color:rgb(255,207,119) ;">4</div>
+	<div class="grid-item" style="background-color:rgb(140,210,255) ;">5</div>
+	<div class="grid-item" style="background-color:rgb(243, 119, 81) ;">6</div>
+
+</div>
 
 <h2 class ="subtitle" id ="contact-us" style="color:steelblue">Contact Us</h2>
 
 <form>
-	<input type="text" placeholder="Full Name" class="form-input">
-	<input type="email" placeholder="Email" class="form-input">
-	<textarea></textarea>
-	<button>Submit</button>	
+	<input type="text" placeholder="Full Name" class="form-input"><br>
+	<input type="email" placeholder="Email" class="form-input"><br>
+	<textarea></textarea><br>
+	<button class="submit-button">Submit</button>	
 
 </form>
 </body>
-</html>
+</html> 
