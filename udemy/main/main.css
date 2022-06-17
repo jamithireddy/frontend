@@ -1,0 +1,94 @@
+*{
+  box-sizing: border-box;
+}
+
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  margin:0; /* By default the browser adds certain margin to the body*/
+}
+#product-overview{
+  background:url("freedom.jpg");
+  padding:10px;
+  width:100%; /* By default it is 100%*/
+  height:500px;
+  
+  /*
+  The Above is equivalent shortcut for
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
+  */ 
+
+  /*margin: 7px;*/
+}
+#product-overview h1{
+  color:white;
+  font-family: 'Anton', sans-serif;
+}
+.section-title{
+  color:#2ddf5c;
+}
+.main-header{
+  width:100%;
+  background-color:#2ddf5c;
+  padding:8px 16px;
+  display:inline-block;
+}
+.main-header > div{
+  display:inline-block;
+  vertical-align: middle;
+}
+.main-header__brand{
+  color:#0e4f1f;
+  text-decoration:none;
+  font-weight:bold;
+  font-size: 22px;
+}
+/* By Changing the font size, we encounter into the issue where the height of the inline block is manipulated by the div and the nav is assymetrically alligned. Hence, we insert the lines "vertical-align:middle" in both the div and nav (only nav doesnt work) */
+.main-nav{
+  display:inline-block;
+  text-align: right;
+  width: calc(100% - 75px); /* We have to remove the width of the div containing uHost so that they can fit side by side*/
+  /*Though 49 was the width of the div we need to remove a little more(75) to accomodate the inline-block. The number is arrived by trail and error */
+  /*We can get a better approach for responsive design later on*/
+  vertical-align: middle;
+}
+.main-nav__items{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+.main-nav__item{
+  display:inline-block;
+  margin: 0 16px;
+  
+}
+.main-nav__item a{
+  color:#0e4f1f;
+  text-decoration: none;
+  font-weight:bold;
+  padding:3px 0;
+}
+.main-nav__item a:hover,
+.main-nav__item a:active{
+  color:white;
+  border-bottom: 3px white solid;
+}
+.main-nav__item--cta a{
+  color:white;
+  background-color:#ff1b68;
+  padding:8px 16px;
+  border-radius: 8px;
+}
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active{
+  color:#ff1b68;
+  background-color: white;
+  border: none;
+}
+
+/* p::first-letter{
+  color:red;
+  font-size: 20px;
+} */
